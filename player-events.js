@@ -14,6 +14,7 @@ module.exports = {
     updateTick: state => function () {
       Combat.startRegeneration(state, this);
 
+      B.sayAt(this, '**TICK**');
       let hadActions = false;
       try {
         hadActions = Combat.updateRound(state, this);
@@ -26,6 +27,7 @@ module.exports = {
       }
 
       if (!hadActions) {
+        B.sayAt(this, '**TICK**');
         return;
       }
 
