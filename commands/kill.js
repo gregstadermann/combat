@@ -39,6 +39,8 @@ module.exports = {
     B.sayAt(player, `You attack ${target.name}.`);
 
     player.initiateCombat(target);
+    let lag = Combat.makeAttack(player, target);
+    B.sayAt(player, `${player.name} attacks ${target.name} for ${lag} ticks.`);
     B.sayAtExcept(player.room, `${player.name} attacks ${target.name}!`, [player, target]);
     if (!target.isNpc) {
       B.sayAt(target, `${player.name} attacks you!`);
