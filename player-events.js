@@ -58,18 +58,19 @@ module.exports = {
 
       let buf = '';
       if (damage.source !== this) {
-        buf = `Your <b>${damage.source.name}</b> hit`;
+        buf = `  and hit`;
       } else {
         buf = "You hit";
       }
 
-      buf += ` <b>${target.name}</b> for <b>${finalAmount}</b> damage.`;
+      buf += ` for <b>${finalAmount}</b> damage.`;
 
       if (damage.metadata.critical) {
         buf += ' <red><b>(Critical)</b></red>';
       }
 
-      B.sayAt(this, buf);
+      //B.sayAt(this, buf);
+      this.combatData.messageHit = buf;
 
       if (this.equipment.has('wield')) {
         this.equipment.get('wield').emit('hit', damage, target, finalAmount);
@@ -301,7 +302,7 @@ module.exports = {
       }
 
       if (target && !this.isNpc) {
-        B.sayAt(this, `<b><red>You killed ${target.name}!</red></b>`);
+        this.combatData.messageKilled = `  <b><red>You killed ${target.name}!</red></b>`;
         this.combatData.lag = 0;
       }
 
