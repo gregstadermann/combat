@@ -35,14 +35,23 @@ module.exports = {
     if (!target) {
       return B.sayAt(player, "They aren't here.");
     }
+ Logger.verbose(`[kill.js] ${player.name} lag: ${player.combatData.lag}`);
+    if(player.combatData.lag === undefined){
+        player.combatData.lag = 0;
+        Logger.verbose(`[kill.js] ${player.name} lag: ${player.combatData.lag}`);
+    }
 
-    B.sayAt(player, `You attack ${target.name}.`);
+    if (player.combatData.lag > 0) {
+      B.sayAt(player, `Wait for ${player.combatData.lag} more seconds...`);
+    } else {
+      B.sayAt(player, `You attack ${target.name}.`);
+      player.initiateCombat(target);
+      let lag = Combat.makeAttack(player, target);
+      Logger.verbose(`[kill.js] ${player.name} attacked ${target.name} for ${lag}ms.`);
+      B.sayAt(player, `You attack ${target.name} for ${lag} ticks.`);
+      B.sayAtExcept(player.room, `${player.name} attacks ${target.name}!`, [player, target]);
+    }
 
-    player.initiateCombat(target);
-    let lag = Combat.makeAttack(player, target);
-    Logger.verbose(`${player.name} attacked ${target.name} for ${lag}ms.`);
-    B.sayAt(player, `You attack ${target.name} for ${lag} ticks.`);
-    B.sayAtExcept(player.room, `${player.name} attacks ${target.name}!`, [player, target]);
     if (!target.isNpc) {
       B.sayAt(target, `${player.name} attacks you!`);
     }

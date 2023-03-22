@@ -5,6 +5,8 @@ const Combat = require('./lib/Combat');
 const CombatErrors = require('./lib/CombatErrors');
 const LevelUtil = require('../lib/lib/LevelUtil');
 const WebsocketStream = require('../websocket-networking/lib/WebsocketStream');
+const Ranvier = require("../../../gemstone3-core");
+const Logger = Ranvier.Logger;
 
 /**
  * Auto combat module
@@ -18,6 +20,7 @@ module.exports = {
       let hadActions = false;
       try {
         hadActions = Combat.updateRound(state, this);
+        //Logger.verbose(`hadActions: ${hadActions}`);
       } catch (e) {
         if (e instanceof CombatErrors.CombatInvalidTargetError) {
           B.sayAt(this, "You can't attack that target.");
@@ -34,12 +37,12 @@ module.exports = {
       const usingWebsockets = this.socket instanceof WebsocketStream;
       // don't show the combat prompt to a websockets server
       if (!this.hasPrompt('combat') && !usingWebsockets) {
-        this.addPrompt('combat', _ => promptBuilder(this));
+        //this.addPrompt('combat', _ => promptBuilder(this));
       }
 
-      B.sayAt(this, '');
+      //B.sayAt(this, '');
       if (!usingWebsockets) {
-        B.prompt(this);
+        //B.prompt(this);
       }
     },
 
@@ -299,6 +302,7 @@ module.exports = {
 
       if (target && !this.isNpc) {
         B.sayAt(this, `<b><red>You killed ${target.name}!</red></b>`);
+        this.combatData.lag = 0;
       }
 
       this.emit('experience', xp);
@@ -322,7 +326,7 @@ function promptBuilder(promptee) {
   const formatProgressBar = (name, progress, entity) => {
     const pad = B.line(nameWidth - name.length, ' ');
     return `<b>${name}${pad}</b>: ${progress} <b>${entity.getAttribute('health')}/${entity.getMaxAttribute('health')}</b>`;
-  }
+  };
 
   // Build player health bar.
   let currentPerc = getHealthPercentage(promptee);
