@@ -1,6 +1,8 @@
 'use strict';
 
 const Combat = require('../../lib/Combat');
+const Ranvier = require("../../../../../gemstone3-core");
+const Logger = Ranvier.Logger;
 
 /**
  * Example real-time combat behavior for NPCs that goes along with the player's player-combat.js
@@ -23,6 +25,7 @@ module.exports = () => {
        * @param {Character} killer
        */
       killed: state => function (config, killer) {
+        Logger.verbose(`NPC [${this.name}] killed by [${killer.name}]`)
       },
 
       /**

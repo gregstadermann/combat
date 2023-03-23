@@ -190,6 +190,7 @@ module.exports = {
       }
 
       if (this.getAttribute('health') <= 0) {
+        Logger.verbose(`${this.name} died to ${damage.source.name}`);
         Combat.handleDeath(state, this, damage.attacker);
       }
     },
@@ -302,7 +303,10 @@ module.exports = {
       }
 
       if (target && !this.isNpc) {
-        this.combatData.messageKilled = `  <b><red>You killed ${target.name}!</red></b>`;
+        //Logger.verbose(`${target.name} has health: ${target.getAttribute('health')}`);
+        if (target.getAttribute('health') <= 0) {
+          this.combatData.messageKilled = `  <b><red>You killed ${target.name}!</red></b>`;
+        }
         this.combatData.lag = 0;
       }
 

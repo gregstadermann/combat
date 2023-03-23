@@ -35,10 +35,9 @@ module.exports = {
     if (!target) {
       return B.sayAt(player, "They aren't here.");
     }
- Logger.verbose(`[kill.js] ${player.name} lag: ${player.combatData.lag}`);
+
     if(player.combatData.lag === undefined){
         player.combatData.lag = 0;
-        Logger.verbose(`[kill.js] ${player.name} lag: ${player.combatData.lag}`);
     }
 
     if (player.combatData.lag > 0) {
@@ -50,12 +49,13 @@ module.exports = {
       player.initiateCombat(target);
       let lag = Combat.makeAttack(player, target);
       lag = Math.round(lag / 1000);
-      Logger.verbose(`[kill.js] ${player.name} attacked ${target.name} for ${lag}ms.`);
       B.sayAt(player, player.combatData.message);
       if(player.combatData.hit === true) {
           B.sayAt(player, player.combatData.messageHit);
-          if(player.combatData.messageKilled !== undefined) {
+          if(player.combatData.messageKilled) {
               B.sayAt(player, player.combatData.messageKilled);
+              // reset messageKilled so it doesn't show up when you attack again
+              player.combatData.messageKilled = null;
           }
       }
       B.sayAt(player, `Roundtime: ${lag} sec.`);
