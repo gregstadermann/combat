@@ -15,34 +15,7 @@ module.exports = {
   listeners: {
     updateTick: state => function () {
       Combat.startRegeneration(state, this);
-
-      //B.sayAt(this, '**TICK**');
-      let hadActions = false;
-      try {
-        hadActions = Combat.updateRound(state, this);
-        Logger.verbose(`try hadActions=Combat.updateRound: ${hadActions}`);
-      } catch (e) {
-        if (e instanceof CombatErrors.CombatInvalidTargetError) {
-          B.sayAt(this, "You can't attack that target.");
-        } else {
-          throw e;
-        }
-      }
-
-      if (!hadActions) {
-        Logger.verbose(`hadActions: ${hadActions}`);
-        return;
-      }
-
-      const usingWebsockets = this.socket instanceof WebsocketStream;
-      // don't show the combat prompt to a websockets server
-      if (!this.hasPrompt('combat') && !usingWebsockets) {
-        //this.addPrompt('combat', _ => promptBuilder(this));
-      }
-
-      if (!usingWebsockets) {
-        //B.prompt(this);
-      }
+      Combat.updateRound(state, this);
     },
 
     /**
@@ -306,7 +279,7 @@ module.exports = {
         if (target.getAttribute('health') <= 0) {
           this.combatData.messageKilled = `  <b><red>You killed ${target.name}!</red></b>`;
         }
-        this.combatData.lag = 0;
+        //this.combatData.lag = 0;
       }
 
       this.emit('experience', xp);
