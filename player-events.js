@@ -20,7 +20,7 @@ module.exports = {
       let hadActions = false;
       try {
         hadActions = Combat.updateRound(state, this);
-        //Logger.verbose(`hadActions: ${hadActions}`);
+        Logger.verbose(`try hadActions=Combat.updateRound: ${hadActions}`);
       } catch (e) {
         if (e instanceof CombatErrors.CombatInvalidTargetError) {
           B.sayAt(this, "You can't attack that target.");
@@ -30,7 +30,7 @@ module.exports = {
       }
 
       if (!hadActions) {
-        //B.sayAt(this, '**TICK**');
+        Logger.verbose(`hadActions: ${hadActions}`);
         return;
       }
 
@@ -40,7 +40,6 @@ module.exports = {
         //this.addPrompt('combat', _ => promptBuilder(this));
       }
 
-      //B.sayAt(this, '');
       if (!usingWebsockets) {
         //B.prompt(this);
       }

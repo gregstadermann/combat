@@ -41,8 +41,7 @@ module.exports = {
     }
 
     if (player.combatData.lag > 0) {
-        let lag = player.combatData.lag;
-        lag = Math.round(lag / 1000);
+      let lag = Math.round(player.combatData.lag / 1000);
       B.sayAt(player, `Wait for ${lag} more seconds...`);
     } else {
       B.sayAt(player, `You swing ${player.equipment.get('wield').name} at ${target.name}!`);
@@ -51,12 +50,12 @@ module.exports = {
       lag = Math.round(lag / 1000);
       B.sayAt(player, player.combatData.message);
       if(player.combatData.hit === true) {
-          B.sayAt(player, player.combatData.messageHit);
-          if(player.combatData.messageKilled) {
-              B.sayAt(player, player.combatData.messageKilled);
-              // reset messageKilled so it doesn't show up when you attack again
-              player.combatData.messageKilled = null;
-          }
+        B.sayAt(player, player.combatData.messageHit);
+        if(player.combatData.messageKilled) {
+          B.sayAt(player, player.combatData.messageKilled);
+          // reset messageKilled so it doesn't show up when you attack again
+          player.combatData.messageKilled = null;
+        }
       }
       B.sayAt(player, `Roundtime: ${lag} sec.`);
       B.sayAtExcept(player.room, `${player.name} attacks ${target.name}!`, [player, target]);
