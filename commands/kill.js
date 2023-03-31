@@ -35,19 +35,22 @@ module.exports = {
     if (!target) {
       return B.sayAt(player, "They aren't here.");
     }
-
-    if(player.combatData.lag === undefined){
+    Logger.verbose("[kill.js] player.combatData.lag: " + player.combatData.lag);
+    /*if(player.combatData.lag === undefined){
         player.combatData.lag = 0;
     }
-
+*/
     if (player.combatData.lag > 0) {
       let lag = Math.round(player.combatData.lag / 1000);
       B.sayAt(player, `Wait for ${lag} more seconds...`);
     } else {
       B.sayAt(player, `You swing ${player.equipment.get('wield').name} at ${target.name}!`);
       player.initiateCombat(target);
+
       let lag = Combat.makeAttack(player, target);
       lag = Math.round(lag / 1000);
+      player.combatData.lag = lag * 1000;
+
       B.sayAt(player, player.combatData.message);
       if(player.combatData.hit === true) {
         B.sayAt(player, player.combatData.messageHit);

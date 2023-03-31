@@ -25,7 +25,7 @@ module.exports = () => {
        * @param {Character} killer
        */
       killed: state => function (config, killer) {
-        Logger.verbose(`NPC [${this.name}] killed by [${killer.name}]`)
+        Logger.verbose(`NPC [${this.name}] killed by [${killer.name}]`);
       },
 
       /**
