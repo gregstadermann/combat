@@ -216,7 +216,7 @@ module.exports = {
      killed: state => {
        const startingRoomRef = Config.get('startingRoom');
        if (!startingRoomRef) {
-         Logger.error('No startingRoom defined in ranvier.json');
+         Logger.error('No startingRoom defined in gemstonegemstone.json');
        }
 
        return function (killer) {
