@@ -36,15 +36,27 @@ module.exports = {
       return B.sayAt(player, "They aren't here.");
     }
     Logger.verbose("[kill.js] player.combatData.lag: " + player.combatData.lag);
-    /*if(player.combatData.lag === undefined){
-        player.combatData.lag = 0;
-    }
-*/
+
+    const findWeapon = (attacker) => {
+      if(!attacker.inventory) {
+        return null;
+      }
+      for (const [uuid, item] of attacker.inventory) {
+        if (item.type === 4) {
+          return item;
+        }
+      }
+    };
+
     if (player.combatData.lag > 0) {
       let lag = Math.round(player.combatData.lag / 1000);
       B.sayAt(player, `Wait for ${lag} more seconds...`);
     } else {
-      B.sayAt(player, `You swing ${player.equipment.get('wield').name} at ${target.name}!`);
+      if(findWeapon(player) === null) {
+        B.sayAt(player, `You swing your fists at ${target.name}!`);
+      }else {
+        B.sayAt(player, `You swing ${findWeapon(player).name} at ${target.name}!`);
+      }
       player.initiateCombat(target);
 
       let lag = Combat.makeAttack(player, target);
