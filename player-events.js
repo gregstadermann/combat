@@ -24,10 +24,6 @@ module.exports = {
      * @param {Character} target
      */
     hit: state => function (damage, target, finalAmount) {
-      if (damage.metadata.hidden) {
-        return;
-      }
-
       let buf = '';
       if (damage.source !== this) {
         buf = `  and hit`;
@@ -37,11 +33,6 @@ module.exports = {
 
       buf += ` for <b>${finalAmount}</b> damage.`;
 
-      if (damage.metadata.critical) {
-        buf += ' <red><b>(Critical)</b></red>';
-      }
-
-      //B.sayAt(this, buf);
       this.combatData.messageHit = buf;
 
       if (this.equipment.has('wield')) {

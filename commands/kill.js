@@ -2,6 +2,7 @@
 
 const Ranvier = require('ranvier');
 const B = Ranvier.Broadcast;
+const ItemType = require('../../../../gemstone3-core/src/ItemType');
 const Logger = Ranvier.Logger;
 
 const Combat = require('../lib/Combat');
@@ -21,10 +22,10 @@ module.exports = {
       target = Combat.findCombatant(player, args);
     } catch (e) {
       if (
-        e instanceof CombatErrors.CombatSelfError ||
-        e instanceof CombatErrors.CombatNonPvpError ||
-        e instanceof CombatErrors.CombatInvalidTargetError ||
-        e instanceof CombatErrors.CombatPacifistError
+          e instanceof CombatErrors.CombatSelfError ||
+          e instanceof CombatErrors.CombatNonPvpError ||
+          e instanceof CombatErrors.CombatInvalidTargetError ||
+          e instanceof CombatErrors.CombatPacifistError
       ) {
         return B.sayAt(player, e.message);
       }
@@ -42,7 +43,7 @@ module.exports = {
         return null;
       }
       for (const [uuid, item] of attacker.inventory) {
-        if (item.type === 4) {
+        if (item.type === ItemType.WEAPON) {
           return item;
         }
       }
@@ -50,30 +51,39 @@ module.exports = {
 
     if (player.combatData.lag > 0) {
       let lag = Math.round(player.combatData.lag / 1000);
-      B.sayAt(player, `Wait for ${lag} more seconds...`);
-    } else {
-      if(findWeapon(player) === null) {
-        B.sayAt(player, `You swing your fists at ${target.name}!`);
-      }else {
-        B.sayAt(player, `You swing ${findWeapon(player).name} at ${target.name}!`);
-      }
-      player.initiateCombat(target);
+      B.sayAt(player, `...wait ${lag} more seconds...`);
+      return;
+    }
+    player.initiateCombat(target);
 
-      let lag = Combat.makeAttack(player, target);
-      lag = Math.round(lag / 1000);
-      player.combatData.lag = lag * 1000;
+    let lag = Combat.makeAttack(player, target, state);
 
-      B.sayAt(player, player.combatData.message);
-      if(player.combatData.hit === true) {
-        B.sayAt(player, player.combatData.messageHit);
-        if(player.combatData.messageKilled) {
-          B.sayAt(player, player.combatData.messageKilled);
-          // reset messageKilled so it doesn't show up when you attack again
-          player.combatData.messageKilled = null;
+    lag = Math.round(lag / 1000);
+    player.combatData.lag = lag * 1000;
+
+    if(player.combatData.hit === true) {
+
+      state.CritsCrushManager.loadCritical(player.combatData.d100).then((crit) => {
+        player.combatData.messageCrit = `<b><yellow>${crit.description}!</yellow></b>`;
+      }).then(() => {
+        if(findWeapon(player) === null) {
+          B.sayAt(player, `You swing your fists at ${target.name}!`);
+        }else {
+          B.sayAt(player, `You swing ${findWeapon(player).name} at ${target.name}!`);
         }
+        B.sayAt(player, player.combatData.message);
+        B.sayAt(player, player.combatData.messageHit);
+        B.sayAt(player, player.combatData.messageCrit);
+        B.sayAt(player, `Roundtime: ${lag} sec.`);
+        B.sayAtExcept(player.room, `${player.name} attacks ${target.name}!`, [player, target]);
+      });
+
+
+      if(player.combatData.messageKilled) {
+        B.sayAt(player, player.combatData.messageKilled);
+        // reset messageKilled so it doesn't show up when you attack again
+        player.combatData.messageKilled = null;
       }
-      B.sayAt(player, `Roundtime: ${lag} sec.`);
-      B.sayAtExcept(player.room, `${player.name} attacks ${target.name}!`, [player, target]);
     }
 
     if (!target.isNpc) {
