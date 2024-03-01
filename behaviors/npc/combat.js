@@ -39,6 +39,7 @@ module.exports = () => {
 
       damaged: state => function (config, damage) {
         if (this.getAttribute('health') <= 0) {
+          // Need this to launch after thet player kills them.  Currently showing before AS/DS roll.
           Combat.handleDeath(state, this, damage.attacker);
         }
       },

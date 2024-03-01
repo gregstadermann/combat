@@ -36,7 +36,7 @@ module.exports = {
     if (!target) {
       return B.sayAt(player, "They aren't here.");
     }
-    Logger.verbose("[kill.js] player.combatData.lag: " + player.combatData.lag);
+    Logger.verbose(player.name + " lag: " + player.combatData.lag);
 
     const findWeapon = (attacker) => {
       if(!attacker.inventory) {
@@ -58,13 +58,12 @@ module.exports = {
 
     let lag = Combat.makeAttack(player, target, state);
 
-    lag = Math.round(lag / 1000);
-    player.combatData.lag = lag * 1000;
+    player.combatData.lag = lag;
 
     if(player.combatData.hit === true) {
-
+      //  Criticals Loaded Here
       state.CritsCrushManager.loadCritical(player.combatData.d100).then((crit) => {
-        player.combatData.messageCrit = `<b><yellow>${crit.description}!</yellow></b>`;
+        player.combatData.messageCrit = `<b><yellow>${crit.description}</yellow></b>`;
       }).then(() => {
         if(findWeapon(player) === null) {
           B.sayAt(player, `You swing your fists at ${target.name}!`);
@@ -74,7 +73,7 @@ module.exports = {
         B.sayAt(player, player.combatData.message);
         B.sayAt(player, player.combatData.messageHit);
         B.sayAt(player, player.combatData.messageCrit);
-        B.sayAt(player, `Roundtime: ${lag} sec.`);
+        B.sayAt(player, `Roundtime: ${Math.round(lag/1000)} sec.`);
         B.sayAtExcept(player.room, `${player.name} attacks ${target.name}!`, [player, target]);
       });
 
@@ -84,6 +83,18 @@ module.exports = {
         // reset messageKilled so it doesn't show up when you attack again
         player.combatData.messageKilled = null;
       }
+    }
+    if(player.combatData.hit === false) {
+      if(findWeapon(player) === undefined) {
+        B.sayAt(player, `You swing your fists at ${target.name}!`);
+      }else {
+        B.sayAt(player, `You swing ${findWeapon(player).name} at ${target.name}!`);
+      }
+      //B.sayAt(player, `You swing ${findWeapon(player).name} at ${target.name}!`);
+      B.sayAt(player, player.combatData.message);
+      B.sayAt(player, 'A clean miss.');
+      B.sayAt(player, `Roundtime: ${Math.round(lag/1000)} sec.`);
+      B.sayAtExcept(player.room, `${player.name} misses ${target.name}!`, [player, target]);
     }
 
     if (!target.isNpc) {
