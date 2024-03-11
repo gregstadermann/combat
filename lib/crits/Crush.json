@@ -1,0 +1,1598 @@
+[{
+    "_id": {
+        "$oid": "654b094e8fa2544304c12bda"
+    },
+    "description": "Zip.",
+    "severity": "A",
+    "RollRangeStart": 1,
+    "RollRangeEnd": 5,
+    "ExtraHits": 0,
+    "FatalBlow": 0,
+    "HitsPerRound": 0,
+    "NextSwingBonus": 0,
+    "RoundsDown": 0,
+    "RoundsMustParry": 0,
+    "RoundsOut": 0,
+    "RoundsStunned": 0
+},
+    {
+        "_id": {
+            "$oid": "654b0b4a8fa2544304c12bdf"
+        },
+        "description": "Glancing blow +6 hits. ",
+        "severity": 5,
+        "RollRangeStart": 6,
+        "RollRangeEnd": 10,
+        "ExtraHits": 6,
+        "RoundsStunned": 0,
+        "FatalBlow": 0,
+        "HitsPerRound": 0,
+        "NextSwingBonus": 0,
+        "RoundsDown": 0,
+        "RoundsMustParry": 0,
+        "RoundsOut": 0
+    },
+    {
+        "_id": {
+            "$oid": "654b0b848fa2544304c12be1"
+        },
+        "description": "Glancing blow. +3 hits.",
+        "severity": "A",
+        "RollRangeStart": 11,
+        "RollRangeEnd": 15,
+        "ExtraHits": 3,
+        "RoundsStunned": 0,
+        "FatalBlow": 0,
+        "HitsPerRound": 0,
+        "NextSwingBonus": 0,
+        "RoundsDown": 0,
+        "RoundsMustParry": 0,
+        "RoundsOut": 0
+    },
+    {
+        "_id": {
+            "$oid": "654b0bd28fa2544304c12be3"
+        },
+        "description": "Glancing blow. +4 hits.",
+        "severity": "A",
+        "RollRangeStart": 16,
+        "RollRangeEnd": 20,
+        "ExtraHits": 4,
+        "RoundsStunned": 0,
+        "FatalBlow": 0,
+        "HitsPerRound": 0,
+        "NextSwingBonus": 0,
+        "RoundsDown": 0,
+        "RoundsMustParry": 0,
+        "RoundsOut": 0
+    },
+    {
+        "_id": {
+            "$oid": "654b15728fa2544304c12be5"
+        },
+        "description": "Foe must parry next rnd. +3 hits. +5 to your next swing.",
+        "severity": "A",
+        "RollRangeStart": 21,
+        "RollRangeEnd": 35,
+        "ExtraHits": 3,
+        "RoundsStunned": 0,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 1,
+        "NextSwingBonus": 5,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "654b15be8fa2544304c12be7"
+        },
+        "description": "Bruise foe's calf. +6 hits. You have initiative. Foe fights at -5 for next rnd.",
+        "severity": "A",
+        "RollRangeStart": 36,
+        "RollRangeEnd": 45,
+        "ExtraHits": 6,
+        "RoundsStunned": 0,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 5,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "654b16198fa2544304c12be9"
+        },
+        "description": "Blow to foe's back. +4 hits. Foe must parry next rnd at -25.",
+        "severity": "A",
+        "RollRangeStart": 46,
+        "RollRangeEnd": 50,
+        "ExtraHits": 4,
+        "RoundsStunned": 0,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 2,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "654b16498fa2544304c12beb"
+        },
+        "description": "Blow to foe's chest. +5 hits. Foe must parry next rnd at -25. Foe has a bruised rib.",
+        "severity": "A",
+        "RollRangeStart": 51,
+        "RollRangeEnd": 55,
+        "ExtraHits": 5,
+        "RoundsStunned": 0,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 2,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "654b16718fa2544304c12bed"
+        },
+        "description": "Strike foe's thigh. +5 hits. Foe is forced to parry next rnd at -25.",
+        "severity": "A",
+        "RollRangeStart": 56,
+        "RollRangeEnd": 60,
+        "ExtraHits": 5,
+        "RoundsStunned": 0,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 2,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "654b16ad8fa2544304c12bef"
+        },
+        "description": "Blow to foe's forearm. +5 hits. Foe is stunned 1 rnd. Add +20 to your next swing.",
+        "severity": "A",
+        "RollRangeStart": 61,
+        "RollRangeEnd": 65,
+        "ExtraHits": 5,
+        "RoundsStunned": 1,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 20,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "654b16e08fa2544304c12bf1"
+        },
+        "description": "Shatter shoulder in foe's shield arm. Arm is quite useless. Foe is stunned and unable to parry for the next 2 rnds. +8 hits.",
+        "severity": "A",
+        "RollRangeStart": 66,
+        "RollRangeEnd": 66,
+        "ExtraHits": 8,
+        "RoundsStunned": 2,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "654b17368fa2544304c12bf3"
+        },
+        "description": "Blow to foe's lower leg. Bad bruise. +5 hits. Foe is stunned for 2 rnds and unable to parry next rnd. Foe at -20.",
+        "severity": "A",
+        "RollRangeStart": 71,
+        "RollRangeEnd": 75,
+        "ExtraHits": 5,
+        "RoundsStunned": 2,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "654b176c8fa2544304c12bf5"
+        },
+        "description": "Blow to foe's shield arm. If foe has a shield, it is broken. If foe has no shield, the arm is badly broken and useless.",
+        "severity": "A",
+        "RollRangeStart": 76,
+        "RollRangeEnd": 80,
+        "ExtraHits": 0,
+        "RoundsStunned": 0,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "654b179d8fa2544304c12bf7"
+        },
+        "description": "Blow to foe's side. +10 hits. Foe is stunned and unable to parry for 2 rnds. Foe is at -20.",
+        "severity": "A",
+        "RollRangeStart": 81,
+        "RollRangeEnd": 85,
+        "ExtraHits": 10,
+        "RoundsStunned": 2,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "654b17f58fa2544304c12bf9"
+        },
+        "description": "Strike foe in back. +12 hits. Muscle and cartilage damage. Foe is stunned and unable to parry for 3 rnds. Foe is at -25.",
+        "severity": "A",
+        "RollRangeStart": 86,
+        "RollRangeEnd": 90,
+        "ExtraHits": 12,
+        "RoundsStunned": 3,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "654b18178fa2544304c12bfb"
+        },
+        "description": "Break foe's nose. Foe is stunned and unable to parry for 3 rnds. +15 hits. Foe fights at -30 for 2 days.",
+        "severity": "A",
+        "RollRangeStart": 91,
+        "RollRangeEnd": 95,
+        "ExtraHits": 15,
+        "RoundsStunned": 3,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "654b185f8fa2544304c12bff"
+        },
+        "description": "Blow to foe's head. If foe has no helm he is dead. If foe has a helm, he is knocked down and stunned 6 rnds. +20 hits.",
+        "severity": "A",
+        "RollRangeStart": 96,
+        "RollRangeEnd": 99,
+        "ExtraHits": 20,
+        "RoundsStunned": 6,
+        "HitsPerRound": 0,
+        "RoundsDown": 6,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "654b18a68fa2544304c12c01"
+        },
+        "description": "Blow to foe's jaw. Drives bone through brain. Foe dies instantly. +50 hits, add +20 to your next swing.",
+        "severity": "A",
+        "RollRangeStart": 100,
+        "RollRangeEnd": 100,
+        "ExtraHits": 50,
+        "RoundsStunned": 0,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 20,
+        "FatalBlow": 1
+    },
+    {
+        "_id": {
+            "$oid": "65dff8803e903ab0fcc9feea"
+        },
+        "description": "Weak grip.  No damage extra damage.",
+        "severity": "B",
+        "RollRangeStart": 1,
+        "RollRangeEnd": 5,
+        "ExtraHits": 0,
+        "RoundsStunned": 0,
+        "FatalBlow": 0,
+        "HitsPerRound": 0,
+        "NextSwingBonus": 0,
+        "RoundsDown": 0,
+        "RoundsMustParry": 0,
+        "RoundsOut": 0
+    },
+    {
+        "_id": {
+            "$oid": "65dff8803e903ab0fcc9feeb"
+        },
+        "description": "+2 hits.",
+        "severity": "B",
+        "RollRangeStart": 6,
+        "RollRangeEnd": 10,
+        "ExtraHits": 2,
+        "RoundsStunned": 0,
+        "FatalBlow": 0,
+        "HitsPerRound": 0,
+        "NextSwingBonus": 0,
+        "RoundsDown": 0,
+        "RoundsMustParry": 0,
+        "RoundsOut": 0
+    },
+    {
+        "_id": {
+            "$oid": "65dff8803e903ab0fcc9feec"
+        },
+        "description": "Glancing blow. +3 hits.",
+        "severity": "B",
+        "RollRangeStart": 11,
+        "RollRangeEnd": 15,
+        "ExtraHits": 3,
+        "RoundsStunned": 0,
+        "FatalBlow": 0,
+        "HitsPerRound": 0,
+        "NextSwingBonus": 0,
+        "RoundsDown": 0,
+        "RoundsMustParry": 0,
+        "RoundsOut": 0
+    },
+    {
+        "_id": {
+            "$oid": "65dff8803e903ab0fcc9feed"
+        },
+        "description": "Blow to foe's side. +4 hits. Foe must parry next rnd at -10.",
+        "severity": "B",
+        "RollRangeStart": 16,
+        "RollRangeEnd": 20,
+        "ExtraHits": 4,
+        "RoundsStunned": 0,
+        "FatalBlow": 0,
+        "HitsPerRound": 0,
+        "NextSwingBonus": 0,
+        "RoundsDown": 0,
+        "RoundsMustParry": 0,
+        "RoundsOut": 0
+    },
+    {
+        "_id": {
+            "$oid": "65dff8803e903ab0fcc9feee"
+        },
+        "description": "Foe must parry next rnd at -20. +4 hits.",
+        "severity": "B",
+        "RollRangeStart": 21,
+        "RollRangeEnd": 35,
+        "ExtraHits": 4,
+        "RoundsStunned": 0,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 1,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65dff8803e903ab0fcc9feef"
+        },
+        "description": "Bruise foe's calf. +6 hits. You have initiative. Foe fights at -20 for next 2 rnds.",
+        "severity": "B",
+        "RollRangeStart": 36,
+        "RollRangeEnd": 45,
+        "ExtraHits": 6,
+        "RoundsStunned": 0,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65dff8803e903ab0fcc9fef0"
+        },
+        "description": "Blow to foe's back. +6 hits. Foe must parry next rnd at -25.",
+        "severity": "B",
+        "RollRangeStart": 46,
+        "RollRangeEnd": 50,
+        "ExtraHits": 6,
+        "RoundsStunned": 0,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 1,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65dff8803e903ab0fcc9fef1"
+        },
+        "description": "Blow to foe's chest. +6 hits. Foe must parry for next 2 rnds.",
+        "severity": "B",
+        "RollRangeStart": 51,
+        "RollRangeEnd": 55,
+        "ExtraHits": 6,
+        "RoundsStunned": 0,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 2,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65dff8803e903ab0fcc9fef2"
+        },
+        "description": "Strike foe's thigh. +6 hits. Foe is bruised, at -5 and must parry for 1 rnd.",
+        "severity": "B",
+        "RollRangeStart": 56,
+        "RollRangeEnd": 60,
+        "ExtraHits": 6,
+        "RoundsStunned": 0,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 1,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65dff8803e903ab0fcc9fef3"
+        },
+        "description": "Blow to foe's forearm. Foe is at -10. +9 hits. Foe is stunned next rnd.",
+        "severity": "B",
+        "RollRangeStart": 61,
+        "RollRangeEnd": 65,
+        "ExtraHits": 9,
+        "RoundsStunned": 1,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65dff8803e903ab0fcc9fef4"
+        },
+        "description": "Shatter elbow in foe's weapon arm. Arm is useless. Foe drops weapon, and is stunned and unable to parry for 3 rnds.",
+        "severity": "B",
+        "RollRangeStart": 66,
+        "RollRangeEnd": 66,
+        "ExtraHits": 0,
+        "RoundsStunned": 3,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65dff8803e903ab0fcc9fef5"
+        },
+        "description": "Strike upper chest area. Foe is stunned and unable to parry for 2 rnds +10 hits. Foe is at -10.",
+        "severity": "B",
+        "RollRangeStart": 67,
+        "RollRangeEnd": 70,
+        "ExtraHits": 10,
+        "RoundsStunned": 2,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65dff8803e903ab0fcc9fef6"
+        },
+        "description": "low bruises foe's calf. Foe is at -35. +10 hits. Foe is stunned 2 rnds and unable to parry next rnd.",
+        "severity": "B",
+        "RollRangeStart": 71,
+        "RollRangeEnd": 75,
+        "ExtraHits": 10,
+        "RoundsStunned": 2,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65dff8803e903ab0fcc9fef7"
+        },
+        "description": "Blow to foe's shield arm shatters wrist. Arm is useless. Foe is stunned for next round. +6 hits.",
+        "severity": "B",
+        "RollRangeStart": 76,
+        "RollRangeEnd": 80,
+        "ExtraHits": 6,
+        "RoundsStunned": 1,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65dff8803e903ab0fcc9fef8"
+        },
+        "description": "Blow to foe's side. +12 hits. Foe has broken ribs. Foe is stunned and unable to parry for 2 rnds. Foe is at -25.",
+        "severity": "B",
+        "RollRangeStart": 81,
+        "RollRangeEnd": 85,
+        "ExtraHits": 12,
+        "RoundsStunned": 2,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65dff8803e903ab0fcc9fef9"
+        },
+        "description": "Strike to back knocks foe down and smashes tendons. Foe is stunned and unable to parry for 4 rnds. Foe is at -30.",
+        "severity": "B",
+        "RollRangeStart": 86,
+        "RollRangeEnd": 90,
+        "ExtraHits": 0,
+        "RoundsStunned": 4,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65dff8803e903ab0fcc9fefa"
+        },
+        "description": "Foe's upper head hit. If no helm, he is in a coma for 3 weeks. If foe has a helm, +20 hits and foe is stunned 12 rnds.",
+        "severity": "B",
+        "RollRangeStart": 91,
+        "RollRangeEnd": 95,
+        "ExtraHits": 20,
+        "RoundsStunned": 12,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65dff8803e903ab0fcc9fefb"
+        },
+        "description": "Blast foe's chest. Send ribcage through heart. Foe drops and dies. +20 to your next swing.",
+        "severity": "B",
+        "RollRangeStart": 96,
+        "RollRangeEnd": 99,
+        "ExtraHits": 0,
+        "RoundsStunned": 0,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 20,
+        "FatalBlow": 1
+    },
+    {
+        "_id": {
+            "$oid": "65dff8803e903ab0fcc9fefc"
+        },
+        "description": "Blow to back of neck paralyzes foe from the shoulders down. +25 hits. Foe is quite stunned.",
+        "severity": "B",
+        "RollRangeStart": 100,
+        "RollRangeEnd": 100,
+        "ExtraHits": 25,
+        "RoundsStunned": 12,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65dffb3e3e903ab0fcc9feff"
+        },
+        "description": "+1 hit.",
+        "severity": "C",
+        "RollRangeStart": 1,
+        "RollRangeEnd": 5,
+        "ExtraHits": 1,
+        "RoundsStunned": 0,
+        "FatalBlow": 0,
+        "HitsPerRound": 0,
+        "NextSwingBonus": 0,
+        "RoundsDown": 0,
+        "RoundsMustParry": 0,
+        "RoundsOut": 0
+    },
+    {
+        "_id": {
+            "$oid": "65dffb3e3e903ab0fcc9ff00"
+        },
+        "description": "+2 hits.",
+        "severity": "C",
+        "RollRangeStart": 6,
+        "RollRangeEnd": 10,
+        "ExtraHits": 2,
+        "RoundsStunned": 0,
+        "FatalBlow": 0,
+        "HitsPerRound": 0,
+        "NextSwingBonus": 0,
+        "RoundsDown": 0,
+        "RoundsMustParry": 0,
+        "RoundsOut": 0
+    },
+    {
+        "_id": {
+            "$oid": "65dffb3e3e903ab0fcc9ff01"
+        },
+        "description": "Blow to foe's side. +7 hits. You have initiative next rnd.",
+        "severity": "C",
+        "RollRangeStart": 11,
+        "RollRangeEnd": 15,
+        "ExtraHits": 7,
+        "RoundsStunned": 0,
+        "FatalBlow": 0,
+        "HitsPerRound": 0,
+        "NextSwingBonus": 0,
+        "RoundsDown": 0,
+        "RoundsMustParry": 0,
+        "RoundsOut": 0
+    },
+    {
+        "_id": {
+            "$oid": "65dffb3e3e903ab0fcc9ff02"
+        },
+        "description": "Blow to foe's side. +6 hits. Foe must parry next rnd at -20.",
+        "severity": "C",
+        "RollRangeStart": 16,
+        "RollRangeEnd": 20,
+        "ExtraHits": 6,
+        "RoundsStunned": 0,
+        "FatalBlow": 0,
+        "HitsPerRound": 0,
+        "NextSwingBonus": 0,
+        "RoundsDown": 0,
+        "RoundsMustParry": 0,
+        "RoundsOut": 0
+    },
+    {
+        "_id": {
+            "$oid": "65dffb3e3e903ab0fcc9ff03"
+        },
+        "description": "Break foe's rib. +5 hits. Foe is stunned next rnd.",
+        "severity": "C",
+        "RollRangeStart": 21,
+        "RollRangeEnd": 35,
+        "ExtraHits": 5,
+        "RoundsStunned": 1,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65dffb3e3e903ab0fcc9ff04"
+        },
+        "description": "Bruise foe's calf. +9 hits. You have initiative. Foe fights at -25 for next 2 rnds.",
+        "severity": "C",
+        "RollRangeStart": 36,
+        "RollRangeEnd": 45,
+        "ExtraHits": 9,
+        "RoundsStunned": 0,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65dffb3e3e903ab0fcc9ff05"
+        },
+        "description": "Blow to back. +5 hits. Foe is stunned and unable to parry for 1 rnd. You have initiative for 2 rnds.",
+        "severity": "C",
+        "RollRangeStart": 46,
+        "RollRangeEnd": 50,
+        "ExtraHits": 5,
+        "RoundsStunned": 1,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 1,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65dffb3e3e903ab0fcc9ff06"
+        },
+        "description": "Hard blow to chest. +5 hits. Foe fights at -10. Foe is stunned next rnd.",
+        "severity": "C",
+        "RollRangeStart": 51,
+        "RollRangeEnd": 55,
+        "ExtraHits": 5,
+        "RoundsStunned": 1,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65dffb3e3e903ab0fcc9ff07"
+        },
+        "description": "Strike foe's thigh. +6 hits. Foe is at -5. +10 to your next swing. Foe must parry next rnd.",
+        "severity": "C",
+        "RollRangeStart": 56,
+        "RollRangeEnd": 60,
+        "ExtraHits": 6,
+        "RoundsStunned": 0,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 1,
+        "NextSwingBonus": 10,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65dffb3e3e903ab0fcc9ff08"
+        },
+        "description": "Disarm foe with a blow to forearm. +8 hits. Foe is stunned next rnd.",
+        "severity": "C",
+        "RollRangeStart": 61,
+        "RollRangeEnd": 65,
+        "ExtraHits": 8,
+        "RoundsStunned": 1,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65dffb3e3e903ab0fcc9ff09"
+        },
+        "description": "Shatter foe's knee. +9 hits. Foe is knocked down and is stunned and unable to parry for 3 rnds. Foe at -90.",
+        "severity": "C",
+        "RollRangeStart": 66,
+        "RollRangeEnd": 66,
+        "ExtraHits": 9,
+        "RoundsStunned": 1,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65dffb3e3e903ab0fcc9ff0a"
+        },
+        "description": "Strike upper chest area. Foe is stunned for 3 rnds and unable to parry during next 2 rnds, +10 hits. Foe is at-10.",
+        "severity": "C",
+        "RollRangeStart": 67,
+        "RollRangeEnd": 70,
+        "ExtraHits": 0,
+        "RoundsStunned": 3,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 2,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65dffb3e3e903ab0fcc9ff0b"
+        },
+        "description": "Blow bruises foe's knee. Foe is at -40. +10 hits. Foe is stunned and unable to parry for 2 rnds.",
+        "severity": "C",
+        "RollRangeStart": 71,
+        "RollRangeEnd": 75,
+        "ExtraHits": 10,
+        "RoundsStunned": 2,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 2,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65dffb3e3e903ab0fcc9ff0c"
+        },
+        "description": "Blow to foe's weapon arm. Bad bruise. +9 hits. Foe is stunned and unable to parry for next rnd. Foe is at -50.",
+        "severity": "C",
+        "RollRangeStart": 76,
+        "RollRangeEnd": 80,
+        "ExtraHits": 9,
+        "RoundsStunned": 1,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65dffb3e3e903ab0fcc9ff0d"
+        },
+        "description": "Strike to foe's side. Breaks 3 ribs. Foe is at -40. +12 hits. Foe is stunned and unable to parry for 3 rnds.",
+        "severity": "C",
+        "RollRangeStart": 81,
+        "RollRangeEnd": 85,
+        "ExtraHits": 12,
+        "RoundsStunned": 3,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65dffb3e3e903ab0fcc9ff0e"
+        },
+        "description": "Blow to back smashes muscle and breaks bone. +20 hits. Foe is at -50. Foe is knocked down and stunned for 6 rnds.",
+        "severity": "C",
+        "RollRangeStart": 86,
+        "RollRangeEnd": 90,
+        "ExtraHits": 20,
+        "RoundsStunned": 6,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65dffb3e3e903ab0fcc9ff0f"
+        },
+        "description": "Blow shatters thigh. +9 hits and a compound fracture. Bone severs an artery. Foe dies after 12 rnds of inactivity.",
+        "severity": "C",
+        "RollRangeStart": 91,
+        "RollRangeEnd": 95,
+        "ExtraHits": 9,
+        "RoundsStunned": 12,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65dffb3e3e903ab0fcc9ff10"
+        },
+        "description": "Blow to foe's abdomen destroys a variety of organs. The poor fool expires after 6 rnds of inactivity.",
+        "severity": "C",
+        "RollRangeStart": 96,
+        "RollRangeEnd": 99,
+        "ExtraHits": 0,
+        "RoundsStunned": 6,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65dffb3e3e903ab0fcc9ff11"
+        },
+        "description": "Strike to forehead. +30 hits. You squash foe's eyes and destroy them. Foe is stunned and is unable to parry 24 rnds.",
+        "severity": "C",
+        "RollRangeStart": 100,
+        "RollRangeEnd": 100,
+        "ExtraHits": 30,
+        "RoundsStunned": 24,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65e023da3e903ab0fcc9ff12"
+        },
+        "description": "+2 hits.",
+        "severity": "D",
+        "RollRangeStart": 1,
+        "RollRangeEnd": 5,
+        "ExtraHits": 2,
+        "RoundsStunned": 0,
+        "FatalBlow": 0,
+        "HitsPerRound": 0,
+        "NextSwingBonus": 0,
+        "RoundsDown": 0,
+        "RoundsMustParry": 0,
+        "RoundsOut": 0
+    },
+    {
+        "_id": {
+            "$oid": "65e023da3e903ab0fcc9ff13"
+        },
+        "description": "+4 hits.",
+        "severity": "D",
+        "RollRangeStart": 6,
+        "RollRangeEnd": 10,
+        "ExtraHits": 4,
+        "RoundsStunned": 0,
+        "FatalBlow": 0,
+        "HitsPerRound": 0,
+        "NextSwingBonus": 0,
+        "RoundsDown": 0,
+        "RoundsMustParry": 0,
+        "RoundsOut": 0
+    },
+    {
+        "_id": {
+            "$oid": "65e023da3e903ab0fcc9ff14"
+        },
+        "description": "+5 hits. Foe must parry next rnd at -10.",
+        "severity": "D",
+        "RollRangeStart": 11,
+        "RollRangeEnd": 15,
+        "ExtraHits": 5,
+        "RoundsStunned": 0,
+        "FatalBlow": 0,
+        "HitsPerRound": 0,
+        "NextSwingBonus": 0,
+        "RoundsDown": 0,
+        "RoundsMustParry": 0,
+        "RoundsOut": 0
+    },
+    {
+        "_id": {
+            "$oid": "65e023da3e903ab0fcc9ff15"
+        },
+        "description": "Minor frib fracture. +5 hits. Foe fights at -5. You have initiative next rnd.",
+        "severity": "D",
+        "RollRangeStart": 16,
+        "RollRangeEnd": 20,
+        "ExtraHits": 5,
+        "RoundsStunned": 0,
+        "FatalBlow": 0,
+        "HitsPerRound": 0,
+        "NextSwingBonus": 0,
+        "RoundsDown": 0,
+        "RoundsMustParry": 0,
+        "RoundsOut": 0
+    },
+    {
+        "_id": {
+            "$oid": "65e023da3e903ab0fcc9ff16"
+        },
+        "description": "Strike to foe's side. +4 hits. Foe is stunned and unable to parry next rnd.",
+        "severity": "D",
+        "RollRangeStart": 21,
+        "RollRangeEnd": 35,
+        "ExtraHits": 4,
+        "RoundsStunned": 1,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65e023da3e903ab0fcc9ff17"
+        },
+        "description": "Major calf bruise. +10 hits. Foe fights at -10. You have initiative next rnd.",
+        "severity": "D",
+        "RollRangeStart": 36,
+        "RollRangeEnd": 45,
+        "ExtraHits": 10,
+        "RoundsStunned": 0,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65e023da3e903ab0fcc9ff18"
+        },
+        "description": "Hard blow to back. +10 hits. Foe is stunned and unable to parry next rnd.",
+        "severity": "D",
+        "RollRangeStart": 46,
+        "RollRangeEnd": 50,
+        "ExtraHits": 10,
+        "RoundsStunned": 1,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 1,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65e023da3e903ab0fcc9ff19"
+        },
+        "description": "Blow to chest. +10 hits. Foe has a pair of broken ribs and must fight at -15.",
+        "severity": "D",
+        "RollRangeStart": 51,
+        "RollRangeEnd": 55,
+        "ExtraHits": 10,
+        "RoundsStunned": 0,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65e023da3e903ab0fcc9ff1a"
+        },
+        "description": "Blow to thigh. Foe is stunned next rnd. +6 hits. Foe is at -10 and is upset.",
+        "severity": "D",
+        "RollRangeStart": 56,
+        "RollRangeEnd": 60,
+        "ExtraHits": 6,
+        "RoundsStunned": 0,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65e023da3e903ab0fcc9ff1b"
+        },
+        "description": "Blow to forearm. Foe is stunned and unable to parry next rnd. +10 hits. Foe at -10.",
+        "severity": "D",
+        "RollRangeStart": 61,
+        "RollRangeEnd": 65,
+        "ExtraHits": 10,
+        "RoundsStunned": 1,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65e023da3e903ab0fcc9ff1c"
+        },
+        "description": "Blow to side of foe's head. If foe has no helm, you crush his skull. If foe has helm, you knock him out for 4 hours. +20 hits.",
+        "severity": "D",
+        "RollRangeStart": 66,
+        "RollRangeEnd": 66,
+        "ExtraHits": 20,
+        "RoundsStunned": 0,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 1
+    },
+    {
+        "_id": {
+            "$oid": "65e023da3e903ab0fcc9ff1d"
+        },
+        "description": "Blow to foe's shoulder area. Minor fracture. Foe is at -20. Foe is stunned and unable to parry for 2 rnds.",
+        "severity": "D",
+        "RollRangeStart": 67,
+        "RollRangeEnd": 70,
+        "ExtraHits": 0,
+        "RoundsStunned": 2,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65e023da3e903ab0fcc9ff1e"
+        },
+        "description": "Blow breaks bone in leg. Foe is at -50. +12 hits. Foe is stunned and unable to parry for 2 rnds. Major cartilage damage.",
+        "severity": "D",
+        "RollRangeStart": 71,
+        "RollRangeEnd": 75,
+        "ExtraHits": 12,
+        "RoundsStunned": 2,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65e023da3e903ab0fcc9ff1f"
+        },
+        "description": "Blow breaks foe's weapon arm. Foe is stunned and unable to parry for 1 rnd. Arm is useless. +8 hits. Tendon damage.",
+        "severity": "D",
+        "RollRangeStart": 76,
+        "RollRangeEnd": 80,
+        "ExtraHits": 8,
+        "RoundsStunned": 1,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65e023da3e903ab0fcc9ff20"
+        },
+        "description": "Strike to foe's side +15 hits. Foe is knocked down. Add +10 to your next swing. Foe is stunned and unable to parry 3 rnds.",
+        "severity": "D",
+        "RollRangeStart": 81,
+        "RollRangeEnd": 85,
+        "ExtraHits": 15,
+        "RoundsStunned": 3,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 10,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65e023da3e903ab0fcc9ff21"
+        },
+        "description": "Blow to foe's neck area breaks backbone and destroys spine. +25 hits. Foe falls and dies in 2 rnds.",
+        "severity": "D",
+        "RollRangeStart": 86,
+        "RollRangeEnd": 90,
+        "ExtraHits": 25,
+        "RoundsStunned": 2,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65e023da3e903ab0fcc9ff22"
+        },
+        "description": "Blow shatters shield arm. Bone severs vein and an artery. Foe dies of shock and blood loss after 9 inactive rnds.",
+        "severity": "D",
+        "RollRangeStart": 91,
+        "RollRangeEnd": 95,
+        "ExtraHits": 0,
+        "RoundsStunned": 0,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 1
+    },
+    {
+        "_id": {
+            "$oid": "65e023da3e903ab0fcc9ff23"
+        },
+        "description": "Blow to foe's side crushes chest cavity. Foe drops and dies in 3 rnds. Add +25 to your next swing.",
+        "severity": "D",
+        "RollRangeStart": 96,
+        "RollRangeEnd": 99,
+        "ExtraHits": 0,
+        "RoundsStunned": 0,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 25,
+        "FatalBlow": 1
+    },
+    {
+        "_id": {
+            "$oid": "65e023da3e903ab0fcc9ff24"
+        },
+        "description": "Blast to foe's chest area. Destroy foe's heart. Foe dies immediately. +25 hits. Fine work.",
+        "severity": "D",
+        "RollRangeStart": 100,
+        "RollRangeEnd": 100,
+        "ExtraHits": 25,
+        "RoundsStunned": 0,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 1
+    },
+    {
+        "_id": {
+            "$oid": "65e025b03e903ab0fcc9ff25"
+        },
+        "description": "+3 hits.",
+        "severity": "E",
+        "RollRangeStart": 1,
+        "RollRangeEnd": 5,
+        "ExtraHits": 3,
+        "RoundsStunned": 0,
+        "FatalBlow": 0,
+        "HitsPerRound": 0,
+        "NextSwingBonus": 0,
+        "RoundsDown": 0,
+        "RoundsMustParry": 0,
+        "RoundsOut": 0
+    },
+    {
+        "_id": {
+            "$oid": "65e025b03e903ab0fcc9ff26"
+        },
+        "description": "Glancing blow +6 hits. You have initiative next rnd.",
+        "severity": "E",
+        "RollRangeStart": 6,
+        "RollRangeEnd": 10,
+        "ExtraHits": 6,
+        "RoundsStunned": 0,
+        "FatalBlow": 0,
+        "HitsPerRound": 0,
+        "NextSwingBonus": 0,
+        "RoundsDown": 0,
+        "RoundsMustParry": 0,
+        "RoundsOut": 0
+    },
+    {
+        "_id": {
+            "$oid": "65e025b03e903ab0fcc9ff27"
+        },
+        "description": "+6 hits. Foe is stunned for 1 rnd. Add +5 to your next swing.",
+        "severity": "E",
+        "RollRangeStart": 11,
+        "RollRangeEnd": 15,
+        "ExtraHits": 6,
+        "RoundsStunned": 1,
+        "FatalBlow": 0,
+        "HitsPerRound": 0,
+        "NextSwingBonus": 5,
+        "RoundsDown": 0,
+        "RoundsMustParry": 0,
+        "RoundsOut": 0
+    },
+    {
+        "_id": {
+            "$oid": "65e025b03e903ab0fcc9ff28"
+        },
+        "description": "Strong blow. Foe is stunned and unable to parry next rnd. +10 to your parry next rnd.",
+        "severity": "E",
+        "RollRangeStart": 16,
+        "RollRangeEnd": 20,
+        "ExtraHits": 0,
+        "RoundsStunned": 1,
+        "FatalBlow": 0,
+        "HitsPerRound": 0,
+        "NextSwingBonus": 10,
+        "RoundsDown": 0,
+        "RoundsMustParry": 0,
+        "RoundsOut": 0
+    },
+    {
+        "_id": {
+            "$oid": "65e025b03e903ab0fcc9ff29"
+        },
+        "description": "Strike cracks foe's ribs. +6 hits. Foe is at -10. You have initiative next rnd.",
+        "severity": "E",
+        "RollRangeStart": 21,
+        "RollRangeEnd": 35,
+        "ExtraHits": 6,
+        "RoundsStunned": 0,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65e025b03e903ab0fcc9ff2a"
+        },
+        "description": "Strike to upper leg. Minor fracture. +12 hits. Foe fights at -10. You have initiative next rnd.",
+        "severity": "E",
+        "RollRangeStart": 36,
+        "RollRangeEnd": 45,
+        "ExtraHits": 12,
+        "RoundsStunned": 0,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65e025b03e903ab0fcc9ff2b"
+        },
+        "description": "Strike to foe's lower back. +15 hits. Foe is stunned and unable to parry next rnd.",
+        "severity": "E",
+        "RollRangeStart": 46,
+        "RollRangeEnd": 50,
+        "ExtraHits": 15,
+        "RoundsStunned": 1,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65e025b03e903ab0fcc9ff2c"
+        },
+        "description": "Blow to chest. +15 hits. Foe is stunned for 2 rnds. Foe fights at -15.",
+        "severity": "E",
+        "RollRangeStart": 51,
+        "RollRangeEnd": 55,
+        "ExtraHits": 15,
+        "RoundsStunned": 2,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65e025b03e903ab0fcc9ff2d"
+        },
+        "description": "Blow to thigh. Foe is stunned and unable to parry next rnd. +10 hits. Foe is at -10.",
+        "severity": "E",
+        "RollRangeStart": 56,
+        "RollRangeEnd": 60,
+        "ExtraHits": 10,
+        "RoundsStunned": 1,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65e025b03e903ab0fcc9ff2e"
+        },
+        "description": "Blow to forearm. Foe drops weapon. Foe is at -15. +10 hits. Foe is stunned next rnd.",
+        "severity": "E",
+        "RollRangeStart": 61,
+        "RollRangeEnd": 65,
+        "ExtraHits": 10,
+        "RoundsStunned": 1,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65e025b03e903ab0fcc9ff2f"
+        },
+        "description": "Blow to back of neck, crushes backbone and severs spine. +15 hits. Foe dies instantly. +10 to your next swing.",
+        "severity": "E",
+        "RollRangeStart": 66,
+        "RollRangeEnd": 66,
+        "ExtraHits": 15,
+        "RoundsStunned": 0,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 10,
+        "FatalBlow": 1
+    },
+    {
+        "_id": {
+            "$oid": "65e025b03e903ab0fcc9ff30"
+        },
+        "description": "Blow to foe's shield shoulder. If foe has a shield, it if broken. If foe has no shield, the shoulder is shattered, arm useless.",
+        "severity": "E",
+        "RollRangeStart": 67,
+        "RollRangeEnd": 70,
+        "ExtraHits": 0,
+        "RoundsStunned": 2,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65e025b03e903ab0fcc9ff31"
+        },
+        "description": "Blow breaks foe's hip. Foe is at -75 and is knocked down. +15 hits. Foe is stunned 3 rnds.",
+        "severity": "E",
+        "RollRangeStart": 71,
+        "RollRangeEnd": 75,
+        "ExtraHits": 15,
+        "RoundsStunned": 3,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65e025b03e903ab0fcc9ff32"
+        },
+        "description": "Blow to foe's elbow. +9 hits. Joint is shattered. Arm is useless. Foe is stunned and unable to parry for 2 rnds.",
+        "severity": "E",
+        "RollRangeStart": 76,
+        "RollRangeEnd": 80,
+        "ExtraHits": 9,
+        "RoundsStunned": 2,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65e025b03e903ab0fcc9ff33"
+        },
+        "description": "Catch foe in armpit. +30 hits. Crush foe's ribs and destroy side. Foe drops and dies of nerve and organ damage in 3 rnds.",
+        "severity": "E",
+        "RollRangeStart": 81,
+        "RollRangeEnd": 85,
+        "ExtraHits": 30,
+        "RoundsStunned": 3,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65e025b03e903ab0fcc9ff34"
+        },
+        "description": "Neck strike shatters bone and severs an artery. Foe cannot breath and is inactive for 12 rnds. The poor fool then expires.",
+        "severity": "E",
+        "RollRangeStart": 86,
+        "RollRangeEnd": 90,
+        "ExtraHits": 0,
+        "RoundsStunned": 0,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 1
+    },
+    {
+        "_id": {
+            "$oid": "65e025b03e903ab0fcc9ff35"
+        },
+        "description": "Blast to foe's back. +25 hits. Bone is driven into vital organs and foe is down for 6 rnds. Then dies, sad.",
+        "severity": "E",
+        "RollRangeStart": 91,
+        "RollRangeEnd": 95,
+        "ExtraHits": 25,
+        "RoundsStunned": 6,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 0,
+        "FatalBlow": 0
+    },
+    {
+        "_id": {
+            "$oid": "65e025b03e903ab0fcc9ff36"
+        },
+        "description": "Crush foe's skull. +30 hits. Opponent dies immediately. Add +20 to your next swing. You have a half rnd left to act.",
+        "severity": "E",
+        "RollRangeStart": 96,
+        "RollRangeEnd": 99,
+        "ExtraHits": 30,
+        "RoundsStunned": 0,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 20,
+        "FatalBlow": 1
+    },
+    {
+        "_id": {
+            "$oid": "65e025b03e903ab0fcc9ff37"
+        },
+        "description": "Crush foe's hip. +35 hits. Opponent is stunned for 2 rnds, is then active for 4 rnds at -30, then dies of nerve damage.",
+        "severity": "E",
+        "RollRangeStart": 100,
+        "RollRangeEnd": 100,
+        "ExtraHits": 35,
+        "RoundsStunned": 2,
+        "HitsPerRound": 0,
+        "RoundsDown": 0,
+        "RoundsOut": 0,
+        "RoundsMustParry": 0,
+        "NextSwingBonus": 30,
+        "FatalBlow": 1
+    }]

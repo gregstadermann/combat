@@ -26,7 +26,7 @@ module.exports = {
     hit: state => function (damage, target, finalAmount) {
       let buf = '';
       if (damage.source !== this) {
-        buf = `  and hit`;
+        buf = `... and hits`;
       } else {
         buf = "You hit";
       }
@@ -116,7 +116,12 @@ module.exports = {
       }
 
       if (damage.source !== damage.attacker) {
-        buf += (damage.attacker ? "'s " : " ") + `<b>${damage.source.name}</b>`;
+        console.log(damage);
+        if(!damage.source === null){
+          buf += (damage.attacker ? "'s " : " ") + `<b>weapon</b>`;
+        }else {
+          buf += (damage.attacker ? "'s " : " ") + `<b>${damage.source.name}</b>`;
+        }
       } else if (!damage.attacker) {
         buf += "Something";
       }
