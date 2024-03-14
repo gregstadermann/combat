@@ -84,6 +84,7 @@ module.exports = {
         player.combatData.messageKilled = null;
       }
     }
+
     if(player.combatData.hit === false) {
       if(findWeapon(player) === undefined) {
         B.sayAt(player, `You swing your fists at ${target.name}!`);

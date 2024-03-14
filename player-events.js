@@ -20,11 +20,10 @@ module.exports = {
 
     /**
      * When the player hits a target
-     * @param {Damage} damage
-     * @param {Character} target
+     * @param state
      */
     hit: state => function (damage, target, finalAmount) {
-      let buf = '';
+      let buf;
       if (damage.source !== this) {
         buf = `... and hits`;
       } else {
@@ -71,7 +70,7 @@ module.exports = {
       }
 
       if (target !== this) {
-        let buf = '';
+        let buf;
         if (heal.source !== this) {
           buf = `Your <b>${heal.source.name}</b> healed`;
         } else {
@@ -116,7 +115,7 @@ module.exports = {
       }
 
       if (damage.source !== damage.attacker) {
-        console.log(damage);
+        //console.log(damage);
         if(!damage.source === null){
           buf += (damage.attacker ? "'s " : " ") + `<b>weapon</b>`;
         }else {
@@ -168,7 +167,7 @@ module.exports = {
         return;
       }
 
-      let buf = '';
+      let buf;
       let attacker = '';
       let source = '';
 
@@ -212,7 +211,7 @@ module.exports = {
      killed: state => {
        const startingRoomRef = Config.get('startingRoom');
        if (!startingRoomRef) {
-         Logger.error('No startingRoom defined in gemstonegemstone.json');
+         Logger.error('No startingRoom defined in gemstone.json');
        }
 
        return function (killer) {
@@ -258,7 +257,8 @@ module.exports = {
      * @param {Character} target
      */
     deathblow: state => function (target, skipParty) {
-      const xp = LevelUtil.mobExp(target.level);
+      //console.log('target level ', target.level);
+      const xp = LevelUtil.mobExp(target.level, this.level);
       if (this.party && !skipParty) {
         // if they're in a party proxy the deathblow to all members of the party in the same room.
         // this will make sure party members get quest credit trigger anything else listening for deathblow
