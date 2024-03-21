@@ -61,28 +61,30 @@ module.exports = {
     player.combatData.lag = lag;
 
     if(player.combatData.hit === true) {
-        if(findWeapon(player) === null) {
-          B.sayAt(player, `You swing your fists at ${target.name}!`);
-          B.sayAtExcept(player.room, `${player.name} swings their fists at ${target.name}!`, [player, target]);
-        }else {
-          B.sayAt(player, `You swing ${findWeapon(player).name} at ${target.name}!`);
-          B.sayAtExcept(player.room, `${player.name} swings ${findWeapon(player).name} at ${target.name}!`, [player, target]);
-        }
-        B.sayAt(player, player.combatData.message);
-        B.sayAtExcept(player.room, player.combatData.message, [player, target]);
-        B.sayAt(player, player.combatData.messageHit);
-        B.sayAtExcept(player.room, player.combatData.messageHit, [player, target]);
-        B.sayAt(player, player.combatData.messageCrit);
-        B.sayAtExcept(player.room, player.combatData.messageCrit, [player, target]);
-        B.sayAt(player, `Roundtime: ${Math.round(lag/1000)} sec.`);
-        //B.sayAtExcept(player.room, `${player.name} attacks ${target.name}!`, [player, target]);
+      if(findWeapon(player) === null) {
+        B.sayAt(player, `You swing your fists at ${target.name}!`);
+        B.sayAtExcept(player.room, `${player.name} swings their fists at ${target.name}!`, [player, target]);
+      }else {
+        B.sayAt(player, `You swing ${findWeapon(player).name} at ${target.name}!`);
+        B.sayAtExcept(player.room, `${player.name} swings ${findWeapon(player).name} at ${target.name}!`, [player, target]);
+      }
+      B.sayAt(player, player.combatData.message);
+      B.sayAtExcept(player.room, player.combatData.message, [player, target]);
 
+      B.sayAt(player, player.combatData.messageHit);
+      B.sayAtExcept(player.room, player.combatData.messageHit, [player, target]);
+
+      B.sayAt(player, player.combatData.messageCrit);
+      B.sayAtExcept(player.room, player.combatData.messageCrit, [player, target]);
 
       if(player.combatData.messageKilled) {
         B.sayAt(player, player.combatData.messageKilled);
         // reset messageKilled so it doesn't show up when you attack again
         player.combatData.messageKilled = null;
       }
+
+      B.sayAt(player, `Roundtime: ${Math.round(lag/1000)} sec.`);
+      //B.sayAtExcept(player.room, `${player.name} attacks ${target.name}!`, [player, target]);
     }
 
     if(player.combatData.hit === false) {
@@ -90,16 +92,16 @@ module.exports = {
         B.sayAt(player, `You swing your fists at ${target.name}!`);
         B.sayAtExcept(player.room, `${player.name} swings their fists at ${target.name}!`, [player, target]);
         B.sayAtExcept(player.room, player.combatData.message, [player, target]);
-        B.sayAtExcept(player.room, 'A clean miss.', [player, target]);
+        B.sayAtExcept(player.room, '   A clean miss.', [player, target]);
       }else {
         B.sayAt(player, `You swing ${findWeapon(player).name} at ${target.name}!`);
         B.sayAtExcept(player.room, `${player.name} swings ${findWeapon(player).name} at ${target.name}!`, [player, target]);
         B.sayAtExcept(player.room, player.combatData.message, [player, target]);
-        B.sayAtExcept(player.room, 'A clean miss.', [player, target]);
+        B.sayAtExcept(player.room, '   A clean miss.', [player, target]);
       }
       //B.sayAt(player, `You swing ${findWeapon(player).name} at ${target.name}!`);
       B.sayAt(player, player.combatData.message);
-      B.sayAt(player, 'A clean miss.');
+      B.sayAt(player, '   A clean miss.');
       B.sayAt(player, `Roundtime: ${Math.round(lag/1000)} sec.`);
     }
 

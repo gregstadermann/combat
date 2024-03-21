@@ -25,7 +25,7 @@ module.exports = {
     hit: state => function (damage, target, finalAmount) {
       let buf;
       if (damage.source !== this) {
-        buf = `... and hits`;
+        buf = `   ... and hits`;
       } else {
         buf = "You hit";
       }
@@ -273,7 +273,7 @@ module.exports = {
       if (target && !this.isNpc) {
         //Logger.verbose(`${target.name} has health: ${target.getAttribute('health')}`);
         if (target.getAttribute('health') <= 0) {
-          this.combatData.messageKilled = `  <b><red>You killed ${target.name}!</red></b>`;
+          this.combatData.messageKilled = `<b><red>You killed ${target.name}!</red></b>`;
         }
         //this.combatData.lag = 0;
       }
