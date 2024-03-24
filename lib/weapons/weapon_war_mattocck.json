@@ -1,0 +1,51 @@
+[
+  {
+    "_id": {
+      "$oid": "655cd874e7cfd53adeff2146"
+    },
+    "ArmorGroup": 1,
+    "CritSeverity": 0,
+    "CritTypeId": 0,
+    "RollRangeStart": 0,
+    "RollRangeEnd": 78
+  },
+  {
+    "_id": {
+      "$oid": "655cd874e7cfd53adeff2147"
+    },
+    "ArmorGroup": 1,
+    "CritSeverity": 0,
+    "CritTypeId": 0,
+    "RollRangeStart": 79,
+    "RollRangeEnd": 81
+  },
+  {
+    "_id": {
+      "$oid": "655cd874e7cfd53adeff2148"
+    },
+    "ArmorGroup": 1,
+    "CritSeverity": 0,
+    "CritTypeId": 0,
+    "RollRangeStart": 82,
+    "RollRangeEnd": 83
+  },
+  {
+    "_id": {
+      "$oid": "655cd874e7cfd53adeff2149"
+    },
+    "ArmorGroup": 1,
+    "CritSeverity": 1,
+    "CritTypeId": 2,
+    "RollRangeStart": 84,
+    "RollRangeEnd": 84
+  },
+  {
+    "_id": {
+      "$oid": "655cd874e7cfd53adeff214a"
+    },
+    "ArmorGroup": 1,
+    "CritSeverity": 1,
+    "CritTypeId": 2,
+    "RollRangeStart": 85,
+    "RollRangeEnd": 87
+  }]

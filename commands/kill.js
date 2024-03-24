@@ -36,7 +36,7 @@ module.exports = {
     if (!target) {
       return B.sayAt(player, "They aren't here.");
     }
-    Logger.verbose(player.name + " lag: " + player.combatData.lag);
+    //Logger.verbose(player.name + " lag: " + player.combatData.lag);
 
     const findWeapon = (attacker) => {
       if(!attacker.inventory) {
@@ -88,7 +88,7 @@ module.exports = {
     }
 
     if(player.combatData.hit === false) {
-      if(findWeapon(player) === undefined) {
+      if(findWeapon(player) === undefined || findWeapon(player) === null) {
         B.sayAt(player, `You swing your fists at ${target.name}!`);
         B.sayAtExcept(player.room, `${player.name} swings their fists at ${target.name}!`, [player, target]);
         B.sayAtExcept(player.room, player.combatData.message, [player, target]);

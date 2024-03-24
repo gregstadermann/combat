@@ -37,7 +37,7 @@
   },
   "ArmorGroup": 1,
   "CritSeverity": 1,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 9,
   "RollRangeStart": 84,
   "RollRangeEnd": 84
@@ -48,7 +48,7 @@
   },
   "ArmorGroup": 1,
   "CritSeverity": 1,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 10,
   "RollRangeStart": 85,
   "RollRangeEnd": 87
@@ -59,7 +59,7 @@
   },
   "ArmorGroup": 1,
   "CritSeverity": 2,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 11,
   "RollRangeStart": 88,
   "RollRangeEnd": 90
@@ -70,7 +70,7 @@
   },
   "ArmorGroup": 1,
   "CritSeverity": 2,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 12,
   "RollRangeStart": 91,
   "RollRangeEnd": 92
@@ -81,7 +81,7 @@
   },
   "ArmorGroup": 1,
   "CritSeverity": 2,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 12,
   "RollRangeStart": 91,
   "RollRangeEnd": 93
@@ -92,7 +92,7 @@
   },
   "ArmorGroup": 1,
   "CritSeverity": 3,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 13,
   "RollRangeStart": 94,
   "RollRangeEnd": 96
@@ -103,7 +103,7 @@
   },
   "ArmorGroup": 1,
   "CritSeverity": 3,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 14,
   "RollRangeStart": 97,
   "RollRangeEnd": 99
@@ -114,7 +114,7 @@
   },
   "ArmorGroup": 1,
   "CritSeverity": 3,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 15,
   "RollRangeStart": 100,
   "RollRangeEnd": 100
@@ -125,7 +125,7 @@
   },
   "ArmorGroup": 1,
   "CritSeverity": 4,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 15,
   "RollRangeStart": 101,
   "RollRangeEnd": 102
@@ -136,7 +136,7 @@
   },
   "ArmorGroup": 1,
   "CritSeverity": 4,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 16,
   "RollRangeStart": 103,
   "RollRangeEnd": 105
@@ -147,7 +147,7 @@
   },
   "ArmorGroup": 1,
   "CritSeverity": 4,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 17,
   "RollRangeStart": 106,
   "RollRangeEnd": 108
@@ -158,7 +158,7 @@
   },
   "ArmorGroup": 1,
   "CritSeverity": 4,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 18,
   "RollRangeStart": 109,
   "RollRangeEnd": 110
@@ -169,7 +169,7 @@
   },
   "ArmorGroup": 1,
   "CritSeverity": 4,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 19,
   "RollRangeStart": 111,
   "RollRangeEnd": 115
@@ -180,7 +180,7 @@
   },
   "ArmorGroup": 1,
   "CritSeverity": 4,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 20,
   "RollRangeStart": 116,
   "RollRangeEnd": 118
@@ -191,7 +191,7 @@
   },
   "ArmorGroup": 1,
   "CritSeverity": 4,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 21,
   "RollRangeStart": 119,
   "RollRangeEnd": 120
@@ -202,10 +202,10 @@
   },
   "ArmorGroup": 1,
   "CritSeverity": 5,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 21,
   "RollRangeStart": 121,
-  "RollRangeEnd": 120
+  "RollRangeEnd": 121
 },
 {
   "_id": {
@@ -213,7 +213,7 @@
   },
   "ArmorGroup": 1,
   "CritSeverity": 5,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 22,
   "RollRangeStart": 122,
   "RollRangeEnd": 124
@@ -224,7 +224,7 @@
   },
   "ArmorGroup": 1,
   "CritSeverity": 5,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 23,
   "RollRangeStart": 125,
   "RollRangeEnd": 127
@@ -235,7 +235,7 @@
   },
   "ArmorGroup": 1,
   "CritSeverity": 5,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 24,
   "RollRangeStart": 128,
   "RollRangeEnd": 130
@@ -246,7 +246,7 @@
   },
   "ArmorGroup": 1,
   "CritSeverity": 5,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 25,
   "RollRangeStart": 131,
   "RollRangeEnd": 133
@@ -257,7 +257,7 @@
   },
   "ArmorGroup": 1,
   "CritSeverity": 5,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 26,
   "RollRangeStart": 134,
   "RollRangeEnd": 136
@@ -268,7 +268,7 @@
   },
   "ArmorGroup": 1,
   "CritSeverity": 5,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 27,
   "RollRangeStart": 137,
   "RollRangeEnd": 139
@@ -279,7 +279,7 @@
   },
   "ArmorGroup": 1,
   "CritSeverity": 5,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 28,
   "RollRangeStart": 140,
   "RollRangeEnd": 142
@@ -290,7 +290,7 @@
   },
   "ArmorGroup": 1,
   "CritSeverity": 5,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 29,
   "RollRangeStart": 143,
   "RollRangeEnd": 145
@@ -301,7 +301,7 @@
   },
   "ArmorGroup": 1,
   "CritSeverity": 5,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 30,
   "RollRangeStart": 146,
   "RollRangeEnd": 150
@@ -312,7 +312,7 @@
   },
   "ArmorGroup": 20,
   "CritSeverity": 5,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 8,
   "RollRangeStart": 150,
   "RollRangeEnd": 150
@@ -323,7 +323,7 @@
   },
   "ArmorGroup": 20,
   "CritSeverity": 5,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 8,
   "RollRangeStart": 149,
   "RollRangeEnd": 149
@@ -334,7 +334,7 @@
   },
   "ArmorGroup": 20,
   "CritSeverity": 4,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 8,
   "RollRangeStart": 147,
   "RollRangeEnd": 148
@@ -345,7 +345,7 @@
   },
   "ArmorGroup": 20,
   "CritSeverity": 3,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 8,
   "RollRangeStart": 142,
   "RollRangeEnd": 146
@@ -356,7 +356,7 @@
   },
   "ArmorGroup": 20,
   "CritSeverity": 2,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 8,
   "RollRangeStart": 135,
   "RollRangeEnd": 141
@@ -367,7 +367,7 @@
   },
   "ArmorGroup": 20,
   "CritSeverity": 1,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 8,
   "RollRangeStart": 134,
   "RollRangeEnd": 134
@@ -378,7 +378,7 @@
   },
   "ArmorGroup": 20,
   "CritSeverity": 1,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 7,
   "RollRangeStart": 129,
   "RollRangeEnd": 133
@@ -444,7 +444,7 @@
   },
   "ArmorGroup": 16,
   "CritSeverity": 5,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 15,
   "RollRangeStart": 146,
   "RollRangeEnd": 150
@@ -455,7 +455,7 @@
   },
   "ArmorGroup": 16,
   "CritSeverity": 4,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 15,
   "RollRangeStart": 142,
   "RollRangeEnd": 145
@@ -466,7 +466,7 @@
   },
   "ArmorGroup": 16,
   "CritSeverity": 4,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 14,
   "RollRangeStart": 139,
   "RollRangeEnd": 141
@@ -477,7 +477,7 @@
   },
   "ArmorGroup": 16,
   "CritSeverity": 3,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 14,
   "RollRangeStart": 135,
   "RollRangeEnd": 138
@@ -488,7 +488,7 @@
   },
   "ArmorGroup": 16,
   "CritSeverity": 3,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 13,
   "RollRangeStart": 132,
   "RollRangeEnd": 134
@@ -499,7 +499,7 @@
   },
   "ArmorGroup": 16,
   "CritSeverity": 2,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 13,
   "RollRangeStart": 128,
   "RollRangeEnd": 131
@@ -510,7 +510,7 @@
   },
   "ArmorGroup": 16,
   "CritSeverity": 2,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 12,
   "RollRangeStart": 125,
   "RollRangeEnd": 127
@@ -532,7 +532,7 @@
   },
   "ArmorGroup": 16,
   "CritSeverity": 2,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 12,
   "RollRangeStart": 123,
   "RollRangeEnd": 123
@@ -554,7 +554,7 @@
   },
   "ArmorGroup": 16,
   "CritSeverity": 1,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 12,
   "RollRangeStart": 121,
   "RollRangeEnd": 121
@@ -587,7 +587,7 @@
   },
   "ArmorGroup": 16,
   "CritSeverity": 1,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 11,
   "RollRangeStart": 118,
   "RollRangeEnd": 118
@@ -631,7 +631,7 @@
   },
   "ArmorGroup": 16,
   "CritSeverity": 1,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 11,
   "RollRangeStart": 114,
   "RollRangeEnd": 114
@@ -664,7 +664,7 @@
   },
   "ArmorGroup": 16,
   "CritSeverity": 1,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 10,
   "RollRangeStart": 108,
   "RollRangeEnd": 109
@@ -697,7 +697,7 @@
   },
   "ArmorGroup": 12,
   "CritSeverity": 5,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 16,
   "RollRangeStart": 143,
   "RollRangeEnd": 150
@@ -708,7 +708,7 @@
   },
   "ArmorGroup": 12,
   "CritSeverity": 4,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 15,
   "RollRangeStart": 137,
   "RollRangeEnd": 142
@@ -719,7 +719,7 @@
   },
   "ArmorGroup": 12,
   "CritSeverity": 4,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 14,
   "RollRangeStart": 135,
   "RollRangeEnd": 136
@@ -730,7 +730,7 @@
   },
   "ArmorGroup": 12,
   "CritSeverity": 3,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 14,
   "RollRangeStart": 131,
   "RollRangeEnd": 134
@@ -741,7 +741,7 @@
   },
   "ArmorGroup": 12,
   "CritSeverity": 3,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 13,
   "RollRangeStart": 127,
   "RollRangeEnd": 130
@@ -774,7 +774,7 @@
   },
   "ArmorGroup": 12,
   "CritSeverity": 3,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 12,
   "RollRangeStart": 123,
   "RollRangeEnd": 124
@@ -807,7 +807,7 @@
   },
   "ArmorGroup": 12,
   "CritSeverity": 2,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 11,
   "RollRangeStart": 117,
   "RollRangeEnd": 118
@@ -840,7 +840,7 @@
   },
   "ArmorGroup": 12,
   "CritSeverity": 2,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 10,
   "RollRangeStart": 111,
   "RollRangeEnd": 112
@@ -873,7 +873,7 @@
   },
   "ArmorGroup": 12,
   "CritSeverity": 1,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 9,
   "RollRangeStart": 105,
   "RollRangeEnd": 106
@@ -906,7 +906,7 @@
   },
   "ArmorGroup": 12,
   "CritSeverity": 1,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 8,
   "RollRangeStart": 100,
   "RollRangeEnd": 100
@@ -917,7 +917,7 @@
   },
   "ArmorGroup": 8,
   "CritSeverity": 5,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 20,
   "RollRangeStart": 146,
   "RollRangeEnd": 150
@@ -939,7 +939,7 @@
   },
   "ArmorGroup": 8,
   "CritSeverity": 5,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 19,
   "RollRangeStart": 141,
   "RollRangeEnd": 143
@@ -961,7 +961,7 @@
   },
   "ArmorGroup": 8,
   "CritSeverity": 4,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 19,
   "RollRangeStart": 138,
   "RollRangeEnd": 138
@@ -972,7 +972,7 @@
   },
   "ArmorGroup": 8,
   "CritSeverity": 4,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 18,
   "RollRangeStart": 132,
   "RollRangeEnd": 137
@@ -994,7 +994,7 @@
   },
   "ArmorGroup": 8,
   "CritSeverity": 3,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 17,
   "RollRangeStart": 126,
   "RollRangeEnd": 127
@@ -1005,7 +1005,7 @@
   },
   "ArmorGroup": 8,
   "CritSeverity": 3,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 16,
   "RollRangeStart": 120,
   "RollRangeEnd": 125
@@ -1016,7 +1016,7 @@
   },
   "ArmorGroup": 8,
   "CritSeverity": 3,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 15,
   "RollRangeStart": 114,
   "RollRangeEnd": 119
@@ -1027,7 +1027,7 @@
   },
   "ArmorGroup": 8,
   "CritSeverity": 2,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 14,
   "RollRangeStart": 108,
   "RollRangeEnd": 112
@@ -1038,7 +1038,7 @@
   },
   "ArmorGroup": 8,
   "CritSeverity": 2,
-  "CritTypeId": 1,
+  "CritTypeId": 2,
   "Hits": 13,
   "RollRangeStart": 102,
   "RollRangeEnd": 107

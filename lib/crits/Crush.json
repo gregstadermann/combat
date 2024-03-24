@@ -20,7 +20,7 @@
             "$oid": "654b0b4a8fa2544304c12bdf"
         },
         "description": "Glancing blow +6 hits. ",
-        "severity": 5,
+        "severity": "A",
         "RollRangeStart": 6,
         "RollRangeEnd": 10,
         "ExtraHits": 6,

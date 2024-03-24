@@ -34,6 +34,7 @@ module.exports = {
 
       this.combatData.messageHit = buf;
 
+      // This is where we would emit the hit event to the weapon script
       if (this.equipment.has('wield')) {
         this.equipment.get('wield').emit('hit', damage, target, finalAmount);
       }
@@ -271,11 +272,9 @@ module.exports = {
       }
 
       if (target && !this.isNpc) {
-        //Logger.verbose(`${target.name} has health: ${target.getAttribute('health')}`);
         if (target.getAttribute('health') <= 0) {
           this.combatData.messageKilled = `<b><red>You killed ${target.name}!</red></b>`;
         }
-        //this.combatData.lag = 0;
       }
 
       this.emit('experience', xp);
