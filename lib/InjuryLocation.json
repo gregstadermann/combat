@@ -1,0 +1,67 @@
+    [
+        {
+            "location": "head",
+            "RollRangeStart": 1,
+            "RollRangeEnd": 5
+        },
+        {
+            "location": "neck",
+            "RollRangeStart": 6,
+            "RollRangeEnd": 10
+        },
+        {
+            "location": "right_eye",
+            "RollRangeStart": 11,
+            "RollRangeEnd": 12
+        },
+        {
+            "location": "left_eye",
+            "RollRangeStart": 13,
+            "RollRangeEnd": 14
+        },
+        {
+            "location": "chest",
+            "RollRangeStart": 15,
+            "RollRangeEnd": 25
+        },
+        {
+            "location": "abdomen",
+            "RollRangeStart": 26,
+            "RollRangeEnd": 35
+        },
+        {
+            "location": "back",
+            "RollRangeStart": 36,
+            "RollRangeEnd": 45
+        },
+        {
+            "location": "right_arm",
+            "RollRangeStart": 46,
+            "RollRangeEnd": 57
+        },
+        {
+            "location": "left_arm",
+            "RollRangeStart": 58,
+            "RollRangeEnd": 67
+        },
+        {
+            "location": "right_hand",
+            "RollRangeStart":89,
+            "RollRangeEnd": 94
+        },
+        {
+            "location": "left_hand",
+            "RollRangeStart": 95,
+            "RollRangeEnd": 100
+        },
+        {
+            "location": "right_leg",
+            "RollRangeStart": 68,
+            "RollRangeEnd": 78
+        },
+        {
+            "location": "left_leg",
+            "RollRangeStart": 79,
+            "RollRangeEnd": 89
+        }
+    ]

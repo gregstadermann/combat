@@ -1,363 +1,87 @@
-[{
-  "_id": {
-    "$oid": "654bef568fa2544304c12c43"
+[
+  {
+    "AsG": 1,
+    "AvD": 25,
+    "DF": 0.450
   },
-  "ArmorGroup": 20,
-  "CritTypeId": 1,
-  "CritSeverity": 3,
-  "RollRangeStart": 150,
-  "RollRangeEnd": 150,
-  "Hits": 11
-},
-{
-  "_id": {
-    "$oid": "655423450ed7105d12d5f59c"
+  {
+    "AsG": 5,
+    "AvD": 26,
+    "DF": 0.350
   },
-  "ArmorGroup": 1,
-  "CritSeverity": 5,
-  "CritTypeId": 1,
-  "RollRangeEnd": 149,
-  "RollRangeStart": 149,
-  "Hits": 38
-},
-{
-  "_id": {
-    "$oid": "65e033373e903ab0fcc9ff3c"
+  {
+    "AsG": 6,
+    "AvD": 25,
+    "DF": 0.350
   },
-  "ArmorGroup": 1,
-  "CritTypeId": 1,
-  "CritSeverity": 0,
-  "RollRangeStart": 1,
-  "RollRangeEnd": 59,
-  "Hits": 0
-},
-{
-  "_id": {
-    "$oid": "65e033373e903ab0fcc9ff3d"
+  {
+    "AsG": 7,
+    "AvD": 24,
+    "DF": 0.350
   },
-  "ArmorGroup": 1,
-  "CritTypeId": 1,
-  "CritSeverity": 0,
-  "RollRangeStart": 60,
-  "RollRangeEnd": 64,
-  "Hits": 8
-},
-{
-  "_id": {
-    "$oid": "65e033373e903ab0fcc9ff3e"
+  {
+    "AsG": 8,
+    "AvD": 23,
+    "DF": 0.350
   },
-  "ArmorGroup": 1,
-  "CritTypeId": 1,
-  "CritSeverity": 0,
-  "RollRangeStart": 65,
-  "RollRangeEnd": 68,
-  "Hits": 10
-},
-{
-  "_id": {
-    "$oid": "65e033373e903ab0fcc9ff3f"
+  {
+    "AsG": 9,
+    "AvD": 25,
+    "DF": 0.325
   },
-  "ArmorGroup": 1,
-  "CritTypeId": 1,
-  "CritSeverity": 0,
-  "RollRangeStart": 69,
-  "RollRangeEnd": 70,
-  "Hits": 11
-},
-{
-  "_id": {
-    "$oid": "65e033373e903ab0fcc9ff40"
+  {
+    "AsG": 10,
+    "AvD": 23,
+    "DF": 0.325
   },
-  "ArmorGroup": 1,
-  "CritTypeId": 1,
-  "CritSeverity": 0,
-  "RollRangeStart": 71,
-  "RollRangeEnd": 73,
-  "Hits": 12
-},
-{
-  "_id": {
-    "$oid": "65e033373e903ab0fcc9ff41"
+  {
+    "AsG": 11,
+    "AvD": 21,
+    "DF": 0.325
   },
-  "ArmorGroup": 1,
-  "CritTypeId": 1,
-  "CritSeverity": 0,
-  "RollRangeStart": 74,
-  "RollRangeEnd": 76,
-  "Hits": 13
-},
-{
-  "_id": {
-    "$oid": "65e033373e903ab0fcc9ff42"
+  {
+    "AsG": 12,
+    "AvD": 19,
+    "DF": 0.325
   },
-  "ArmorGroup": 1,
-  "CritTypeId": 1,
-  "CritSeverity": 0,
-  "RollRangeStart": 77,
-  "RollRangeEnd": 79,
-  "Hits": 14
-},
-{
-  "_id": {
-    "$oid": "65e033373e903ab0fcc9ff43"
+  {
+    "AsG": 13,
+    "AvD": 26,
+    "DF": 0.175
   },
-  "ArmorGroup": 1,
-  "CritTypeId": 1,
-  "CritSeverity": 0,
-  "RollRangeStart": 80,
-  "RollRangeEnd": 82,
-  "Hits": 15
-},
-{
-  "_id": {
-    "$oid": "65e033373e903ab0fcc9ff44"
+  {
+    "AsG": 14,
+    "AvD": 22,
+    "DF": 0.175
   },
-  "ArmorGroup": 1,
-  "CritTypeId": 1,
-  "CritSeverity": 0,
-  "RollRangeStart": 83,
-  "RollRangeEnd": 85,
-  "Hits": 16
-},
-{
-  "_id": {
-    "$oid": "65e033373e903ab0fcc9ff45"
+  {
+    "AsG": 15,
+    "AvD": 18,
+    "DF": 0.175
   },
-  "ArmorGroup": 1,
-  "CritTypeId": 1,
-  "CritSeverity": 0,
-  "RollRangeStart": 86,
-  "RollRangeEnd": 88,
-  "Hits": 17
-},
-{
-  "_id": {
-    "$oid": "65e033373e903ab0fcc9ff46"
+  {
+    "AsG": 16,
+    "AvD": 14,
+    "DF": 0.175
   },
-  "ArmorGroup": 1,
-  "CritTypeId": 1,
-  "CritSeverity": 0,
-  "RollRangeStart": 89,
-  "RollRangeEnd": 91,
-  "Hits": 18
-},
-{
-  "_id": {
-    "$oid": "65e033373e903ab0fcc9ff47"
+  {
+    "AsG": 17,
+    "AvD": 24,
+    "DF": 0.100
   },
-  "ArmorGroup": 1,
-  "CritTypeId": 1,
-  "CritSeverity": 0,
-  "RollRangeStart": 92,
-  "RollRangeEnd": 94,
-  "Hits": 19
-},
-{
-  "_id": {
-    "$oid": "65e033373e903ab0fcc9ff48"
+  {
+    "AsG": 18,
+    "AvD": 18,
+    "DF": 0.100
   },
-  "ArmorGroup": 1,
-  "CritTypeId": 1,
-  "CritSeverity": 0,
-  "RollRangeStart": 95,
-  "RollRangeEnd": 97,
-  "Hits": 20
-},
-{
-  "_id": {
-    "$oid": "65e033373e903ab0fcc9ff49"
+  {
+    "AsG": 19,
+    "AvD": 12,
+    "DF": 0.100
   },
-  "ArmorGroup": 1,
-  "CritTypeId": 1,
-  "CritSeverity": 0,
-  "RollRangeStart": 98,
-  "RollRangeEnd": 99,
-  "Hits": 21
-},
-{
-  "_id": {
-    "$oid": "65e033373e903ab0fcc9ff4a"
-  },
-  "ArmorGroup": 1,
-  "CritTypeId": 1,
-  "CritSeverity": 1,
-  "RollRangeStart": 100,
-  "RollRangeEnd": 100,
-  "Hits": 21
-},
-{
-  "_id": {
-    "$oid": "65e033373e903ab0fcc9ff4b"
-  },
-  "ArmorGroup": 1,
-  "CritTypeId": 1,
-  "CritSeverity": 1,
-  "RollRangeStart": 101,
-  "RollRangeEnd": 102,
-  "Hits": 22
-},
-{
-  "_id": {
-    "$oid": "65fc3e57a4253bccc44772ae"
-  },
-  "ArmorGroup": 1,
-  "CritTypeId": 1,
-  "CritSeverity": 1,
-  "RollRangeStart": 103,
-  "RollRangeEnd": 105,
-  "Hits": 23
-},
-{
-  "_id": {
-    "$oid": "65fc4009a4253bccc44772af"
-  },
-  "ArmorGroup": 1,
-  "CritTypeId": 1,
-  "CritSeverity": 1,
-  "RollRangeStart": 106,
-  "RollRangeEnd": 108,
-  "Hits": 24
-},
-{
-  "_id": {
-    "$oid": "65fc4009a4253bccc44772b0"
-  },
-  "ArmorGroup": 1,
-  "CritTypeId": 1,
-  "CritSeverity": 2,
-  "RollRangeStart": 109,
-  "RollRangeEnd": 111,
-  "Hits": 25
-},
-{
-  "_id": {
-    "$oid": "65fc4009a4253bccc44772b1"
-  },
-  "ArmorGroup": 1,
-  "CritTypeId": 1,
-  "CritSeverity": 2,
-  "RollRangeStart": 112,
-  "RollRangeEnd": 114,
-  "Hits": 26
-},
-{
-  "_id": {
-    "$oid": "65fc4009a4253bccc44772b2"
-  },
-  "ArmorGroup": 1,
-  "CritTypeId": 1,
-  "CritSeverity": 2,
-  "RollRangeStart": 115,
-  "RollRangeEnd": 117,
-  "Hits": 27
-},
-{
-  "_id": {
-    "$oid": "65fc4009a4253bccc44772b3"
-  },
-  "ArmorGroup": 1,
-  "CritTypeId": 1,
-  "CritSeverity": 2,
-  "RollRangeStart": 118,
-  "RollRangeEnd": 120,
-  "Hits": 28
-},
-{
-  "_id": {
-    "$oid": "65fc4009a4253bccc44772b4"
-  },
-  "ArmorGroup": 1,
-  "CritTypeId": 1,
-  "CritSeverity": 3,
-  "RollRangeStart": 121,
-  "RollRangeEnd": 123,
-  "Hits": 29
-},
-{
-  "_id": {
-    "$oid": "65fc4009a4253bccc44772b5"
-  },
-  "ArmorGroup": 1,
-  "CritTypeId": 1,
-  "CritSeverity": 3,
-  "RollRangeStart": 124,
-  "RollRangeEnd": 126,
-  "Hits": 30
-},
-{
-  "_id": {
-    "$oid": "65fc4009a4253bccc44772b6"
-  },
-  "ArmorGroup": 1,
-  "CritTypeId": 1,
-  "CritSeverity": 3,
-  "RollRangeStart": 127,
-  "RollRangeEnd": 129,
-  "Hits": 31
-},
-{
-  "_id": {
-    "$oid": "65fc4009a4253bccc44772b7"
-  },
-  "ArmorGroup": 1,
-  "CritTypeId": 1,
-  "CritSeverity": 4,
-  "RollRangeStart": 130,
-  "RollRangeEnd": 133,
-  "Hits": 33
-},
-{
-  "_id": {
-    "$oid": "65fc4009a4253bccc44772b8"
-  },
-  "ArmorGroup": 1,
-  "CritTypeId": 1,
-  "CritSeverity": 4,
-  "RollRangeStart": 134,
-  "RollRangeEnd": 135,
-  "Hits": 33
-},
-{
-  "_id": {
-    "$oid": "65fc4009a4253bccc44772b9"
-  },
-  "ArmorGroup": 1,
-  "CritTypeId": 1,
-  "CritSeverity": 4,
-  "RollRangeStart": 136,
-  "RollRangeEnd": 138,
-  "Hits": 34
-},
-{
-  "_id": {
-    "$oid": "65fc4009a4253bccc44772ba"
-  },
-  "ArmorGroup": 1,
-  "CritTypeId": 1,
-  "CritSeverity": 5,
-  "RollRangeStart": 139,
-  "RollRangeEnd": 141,
-  "Hits": 35
-},
-{
-  "_id": {
-    "$oid": "65fc4009a4253bccc44772bb"
-  },
-  "ArmorGroup": 1,
-  "CritTypeId": 1,
-  "CritSeverity": 5,
-  "RollRangeStart": 142,
-  "RollRangeEnd": 144,
-  "Hits": 36
-},
-{
-  "_id": {
-    "$oid": "65fc4009a4253bccc44772bc"
-  },
-  "ArmorGroup": 1,
-  "CritTypeId": 1,
-  "CritSeverity": 5,
-  "RollRangeStart": 145,
-  "RollRangeEnd": 150,
-  "Hits": 37
-}]
+  {
+    "AsG": 20,
+    "AvD":6,
+    "DF": 0.100
+  }
+]

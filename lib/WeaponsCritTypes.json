@@ -1,0 +1,10 @@
+[
+  {
+    "baseWeapon": "weapon_broadsword",
+    "critType": "Slash"
+  },
+  {
+    "baseWeapon": "weapon_quarterstaff",
+    "critType": "Crush"
+  }
+]
